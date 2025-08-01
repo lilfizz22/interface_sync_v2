@@ -26,7 +26,6 @@ public class Event implements ISyncable {
         return str;
     }
 
-    @Override
     public void decode(String str) {
         String[] parts = str.split("\\|");
         if (parts.length != 7) {
